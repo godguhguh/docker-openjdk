@@ -1,5 +1,5 @@
 # 使用 adoptopenjdk:17-jre-hotspot 作为基础镜像
-FROM adoptopenjdk:17-jre-hotspot
+FROM adoptium/adoptopenjdk:17-jre-hotspot
 
 # 设置上海时区
 ENV TZ=Asia/Shanghai
